@@ -14,7 +14,7 @@ student_name = 'Student's name or names'
 student_email = "JAMK's student's email address or addresses"
 ```
 
-Remember to update the information for all assignments (1-6).
+Remember to update the same information for all assignments (1-6).
 
 ### Repository Forking
 
