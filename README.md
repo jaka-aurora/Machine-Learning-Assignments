@@ -6,12 +6,9 @@ In this GitLab Repository, you can find the bases of the ML course assignments a
 
 ### Student's name or Students' names
 
-**INSERT THE NAMES OF THE ALL GROUP MEMBERS HERE!**. So add *student's name or students' names and student email addresses at JAMK*.
-
 ```
-# Enter your information here!
-student_name = 'Student's name or names' 
-student_email = "JAMK's student's email address or addresses"
+student_name = Jaka Cosic Hämäläinen
+student_email = aa6111@student.jamk.fi
 ```
 
 Remember to update the same information for all assignments (1-6).
