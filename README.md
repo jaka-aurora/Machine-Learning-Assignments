@@ -1,40 +1,43 @@
-# Machine learning Assignments
+# Machine Learning
 
-## Spring 2025 implementation
+This repository contains my completed assignments from machine learning coursework, demonstrating foundational skills in supervised and unsupervised learning, model evaluation, and real-world predictive tasks using Python and Jupyter Notebooks.
 
-In this GitLab Repository, you can find the bases of the ML course assignments as **Jupyter Notebook** files.
+## Skills Demonstrated
 
-### Student's name or Students' names
+- Supervised learning: regression, classification  
+- Unsupervised learning: clustering  
+- Model evaluation and validation  
+- Feature engineering and preprocessing  
+- Python & scikit-learn for practical machine learning
 
-```
-student_name = Jaka Cosic Hämäläinen
-student_email = aa6111@student.jamk.fi
-```
+## Contents
 
-Remember to update the same information for all assignments (1-6).
+**assignment_1** — Supervised learning task using the Congressional Voting Records dataset, focusing on data preprocessing, feature handling, and classification model implementation.  
 
-### Repository Forking
+**assignment_2_kmeans** — Unsupervised learning exercise using K-means clustering to identify patterns and groupings in data.  
 
-1. **Fork** the assignment repository for yourself
-2. Change the repository permissions. Always create a **Private** repository, because the solutions to the assignments should not be visible to other students. If your repository is not private, the course is rejected.
-3. Set the repository access rights to only yourself, your possible group work student and the course teacher (**Developer** rights) when you are starting to do the assignments.
-4. Change the student's name to the forked repository before starting to do assignments.
+**assignment_3_diabetes_dt_bayes_knn** — Classification task on a diabetes dataset using multiple models, including Decision Trees, Naive Bayes, and k-Nearest Neighbors, with comparison of model performance.  
 
-### Group work
+**assignment_4_regression_models** — Regression analysis using different regression models, including data preprocessing, model training, and evaluation on real-world datasets.  
 
-These assignments can be done and returned alone or in a group of two students.
-This is particularly advantageous in analyzing and reflecting on the results,
-which is an important part of any machine learning project.
+**assignment_5_rf_svm** — Supervised learning using ensemble and kernel-based methods, applying Random Forest and Support Vector Machine models and comparing their performance.  
 
-* Grading for a group work is the same as for work done alone.
-* In group work, it will be enough that you return one repository that was developed together with a teammate.
+**assignment_6_comp_voices** — Applied machine learning task combining data preprocessing and classification techniques to analyze and model voice or signal-based data.  
 
-## Return of Assignments
+**README.md** - This overview and usage instructions  
+**requirements.txt** - Contains libraries used in the notebooks  
 
-**NOTE! Never change the basic structure of Original Jupyter Notebook Assignment files when returning assignments to the repository.**
+## How to Run
 
-In Jupyter Notebook file, the Python _code cells_ are run before the assignment is returned to the Repository.
+1. Clone this repository.
+2. Create and activate a virtual environment
+    ```
+    python3 -m venv venv
+    ```
+3. Install dependencies:
+   ```
+    pip install -r requirements.txt
+   ```
+4. Launch Jupyter Notebook.
+5. Open any assignment notebook in the _assignments_ folders and run the cells.  
 
-In this way, the results of the Notebook's **output** cells are displayed directly when checking assignments. Check the contents of the notebook file yourself in the repository before returning.
-
-Good Luck!
